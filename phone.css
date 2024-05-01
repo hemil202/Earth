@@ -1,0 +1,100 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.nav {
+    flex-direction: column;
+}
+
+.nav .logo {
+    margin-bottom: 20px;
+}
+
+.right ul{
+    font-size: 17px;
+}
+
+.mid h2 {
+    font-size: 39px;
+    text-align: center;
+}
+
+.section-02 {
+    display: flex;
+    flex-direction: column;
+}
+
+.section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px;
+}
+
+.simg p {
+    display: flex;
+    justify-content: center;
+}
+
+.section-1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.stext {
+    margin: 0px;
+    padding: 0px;
+    margin-bottom: 20px;
+}
+
+.stext> :nth-child(1) {
+    width: 20px;
+}
+
+.stext> :nth-child(3) {
+    width: 50px;
+    border-radius: 35px;
+}
+
+.section-02 h1 {
+    margin: 0px;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.section-3 {
+    padding: 0px;
+    margin: 0px;
+    margin-top: 10px;
+}
+
+.scear i{
+    font-size: 37px;
+    margin-bottom: 12px;
+}
+
+.scear .p-3 {
+    font-size: 20px;
+    text-align: center;
+}
+
+.scear .p-4 {
+    font-size: 15px;
+    text-align: center;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+}
+
+footer .right {
+    margin-bottom: 11px;
+}
+
+footer .fmid {
+    margin: 10px;
+}
